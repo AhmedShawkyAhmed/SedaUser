@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "839633667069",
+    "project_id": "seda-82bc0",
+    "storage_bucket": "seda-82bc0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839633667069:android:ea7cf80b1de7ebeaf4cf94",
+        "android_client_info": {
+          "package_name": "com.magdsoft.seda"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBqsqlWPY4-JgURk0E0BViD-l5x0uBSxY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

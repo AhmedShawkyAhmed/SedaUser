@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Seda</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>en</string>
+		<string>ar</string>
+	</array>
+	<key>CFBundleName</key>
+	<string>Seda</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>app-1-839633667069-ios-f9c2d6dcb9051245f4cf94</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>sms</string>
+		<string>tel</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>app require running audio file from chat between user and driver</string>
+	<key>NSCameraUsageDescription</key>
+	<string>use camera to scan qr code</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>App wants to access your documents folder</string>
+	<key>NSDownloadsFolderUsageDescription</key>
+	<string>App wants to access your downloads folder</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This app needs location permission to keep track to driver location and during trip</string>
+	<key>UIBackgroundModes</key>
+    <array>
+    	<string>location</string>
+    	<string>fetch</string>
+    	<string>processing</string>
+    	<string>remote-notification</string>
+    </array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>use location access to get user location for ride</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+    <string>use location access to get user location for ride</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This app requires Mic permission to record voice in chat with driver.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>use camera to upload image</string>
+	<key>UIFileSharingEnabled</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+       <array>
+           <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+       </array>
+	<key>FLTEnableImpeller</key>
+	<false />
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+</dict>
+</plist>

@@ -1,0 +1,30 @@
+class AppRouterNames {
+  static const splash = "/";
+  static const login = "login";
+  static const home = "home";
+  static const fillProfile = "fillProfile";
+  static const verification = "verification";
+  static const terms = "terms";
+  static const ridesHome = "ridesHome";
+  static const checkout = "checkout";
+  static const historyDetails = "historyDetails";
+  static const qrScan = "qrScan";
+  static const scooterAsk = "scooterAsk";
+  static const scooterMap = "scooterMap";
+  static const inviteFriends = "inviteFriends";
+  static const wallet = "wallet";
+  static const scooterTrip = "scooterTrip";
+  static const setting = "setting";
+  static const notifications = "notifications";
+  static const history = "History";
+  static const profile = "profile";
+  static const captainProfile = "captainProfile";
+  static const addDropOff = "addDropOff";
+  static const chat = "chat";
+  static const cards = '/card';
+  static const addPromo = '/addPromo';
+  static const myVoucher = '/myVoucher';
+  static const becomeDriver = '/BecomeDriverScreen';
+  static const governs = '/governs';
+  static const governDetails = '/governDetails';
+}

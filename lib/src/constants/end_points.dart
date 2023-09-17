@@ -1,0 +1,45 @@
+class EndPoints {
+  static const String googleMapKey = "AIzaSyD03tmmafIJahLSvVG3xHQQa_7NDrEZ1i8";
+  static const String appKey = '520';
+  static const String imageBaseUrl = "https://bt-dev-ride.magdsofteg.xyz/";
+  static const String baseUrl = "https://bt-dev-ride.magdsofteg.xyz/api/";
+  static const String epVerifyPhone = "verifyPhone";
+  static const String epVerifyOTP = "verifyOtp";
+  static const String epRegister = "register";
+  static const String epLogout = "logout";
+  static const String epUpdateProfile = "updateProfile";
+  static const String epGetProfile = "GetProfile";
+  static const String epMakeOrder = "makeOrder";
+  static const String epMakeHoursOrder = "makeHoursOrder";
+  static const String epCancelOrderByUser = "cancelOrderByUser";
+  static const String epGetRideType = "getRideType";
+  static const String epGetMassages = "getMassages";
+  static const String epAddRate = "AddRate";
+  static const String epSendMassages = "sendMassages";
+  static const String epSendRecord = "uploadOrderImage";
+  static const String getAllNotifications = "getAllNotification";
+  static const String getSingleNotification = "showNotification";
+  static const String epMarkAllNotificationsAsRead = "markAllAsRead";
+  static const String epMarkSingleNotificationsAsRead = "markAsRead";
+  static const String getWalletData = "getWalletData";
+  static const String getPaymentTypes = "getPaymentTypes";
+  static const String getUserPointData = "getUserPointData";
+  static const String epGetFav = "getFav";
+  static const String epGetNearestCar = "GetNearestCar";
+  static const String epHistoryOrder = "historyOrder";
+  static const String epGetMyOrders = "getMyOrders";
+  static const String epAddLocation = "locations";
+  static const String epGetLastLocation = "getLastLocation";
+  static const String epSaveCard = "saveCard";
+  static const String epGetMyCard = "GetMyCard";
+  static const String epUpdateFcm = "updateFcm";
+  static const String epRegisterBySocial = "registerBySocial";
+  static const String epAcceptOfferByUserController =
+      "AcceptOfferByUserController";
+  static const String epGetValidShardOrders = "getValidShardOrders";
+  static const String epGetMyValidShardOrders = "getMyValidShardOrders";
+  static const String epApplyShardOrder = "applyShardOrder";
+  static const String epAddNewDropOff = "AddNewDropOff";
+  static const String epChangePayment = "changePayment";
+  static const String epLastStatusOrder = "LastStatusOrder";
+}
